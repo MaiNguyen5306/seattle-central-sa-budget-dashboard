@@ -62,10 +62,11 @@ section[data-testid="stSidebar"] {
 .st-key-top_nav {
     background: #315E58;
 
-    min-height: 90px;
+    height: 68px;
+    min-height: 68px;
 
     padding:
-        1.25rem
+        1.2rem
         5vw;
 
     box-sizing: border-box;
@@ -84,6 +85,11 @@ section[data-testid="stSidebar"] {
     margin-bottom: -1rem;
 }
 
+.st-key-top_nav [data-testid="stVerticalBlock"] {
+    gap: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 
 .st-key-top_nav [data-testid="stHorizontalBlock"] {
     gap: 0.75rem;
@@ -98,31 +104,63 @@ section[data-testid="stSidebar"] {
     cursor: pointer !important;
 }
 
+/* Let nav buttons size to their text instead of filling the column */
+
+.st-key-top_nav div[data-testid="stButton"] {
+    width: fit-content !important;
+}
+
+.st-key-top_nav div[data-testid="stButton"] > button {
+    width: fit-content !important;
+
+    min-width: 82px !important;
+    max-width: none !important;
+
+    min-height: 36px !important;
+
+    padding:
+        0.3rem
+        0.7rem !important;
+}
+
+.st-key-top_nav button[kind="secondary"] p,
+.st-key-top_nav button[kind="primary"] p {
+    font-size: 0.8rem !important;
+    font-weight: 750 !important;
+
+    letter-spacing: 0.035em !important;
+
+    
+    margin: 0 !important;
+
+    white-space: nowrap !important;
+}
+
+.st-key-top_nav button[kind="secondary"],
+.st-key-top_nav button[kind="primary"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 
 /* ---------------------------------------------------------
    SITE TITLE
 --------------------------------------------------------- */
 
-.st-key-top_nav button[kind="tertiary"] {
+.st-key-top_nav button[kind="tertiary"] p {
     color: #F8F4E8 !important;
 
-    font-size: 1.05rem !important;
+    font-family:
+        Arial,
+        sans-serif !important;
+
+    font-size: 0.9rem !important;
+
     font-weight: 800 !important;
 
-    letter-spacing: 0.045em;
+    letter-spacing: 0.035em !important;
 
-    padding:
-        0 !important;
-
-    background:
-        transparent !important;
-
-    border:
-        none !important;
-
-    min-height: auto !important;
-
-    text-align: left !important;
+    white-space: nowrap !important;
 }
 
 
@@ -143,10 +181,10 @@ section[data-testid="stSidebar"] {
         0.8rem !important;
 
     background:
-        #8B99CB !important;
+        #E8EDC3 !important;
 
     color:
-        #FFFFFF !important;
+        #315E58 !important;
 
     border:
         1.5px solid
@@ -218,6 +256,30 @@ section[data-testid="stSidebar"] {
         none !important;
 }
 
+/* Brand column takes the leftover space */
+.st-key-top_nav
+[data-testid="stHorizontalBlock"]
+> [data-testid="stColumn"]:first-child {
+    flex: 1 1 auto !important;
+    width: auto !important;
+}
+
+
+/* Each navigation column shrinks to its button */
+.st-key-top_nav
+[data-testid="stHorizontalBlock"]
+> [data-testid="stColumn"]:not(:first-child) {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: fit-content !important;
+}
+
+
+/* Exact equal space between columns */
+.st-key-top_nav
+[data-testid="stHorizontalBlock"] {
+    gap: 0.75rem !important;
+}
 
 /* =========================================================
    HOME HERO
@@ -234,9 +296,9 @@ section[data-testid="stSidebar"] {
 
     height:
         clamp(
-            660px,
-            84vh,
-            710px
+            585px,
+            80vh,
+            640px
         );
 
     min-height: 0;
@@ -440,7 +502,7 @@ section[data-testid="stSidebar"] {
         1.7rem;
 
     background:
-        #8B99CB;
+        #F3A36C;
 
     border:
         2px solid
@@ -512,9 +574,9 @@ section[data-testid="stSidebar"] {
 
     width:
         clamp(
-            145px,
-            13.2vw,
-            205px
+            160px,
+            14.5vw,
+            225px
         );
 
     height:

@@ -135,7 +135,7 @@ def render_navigation():
             about_col,
         ) = st.columns(
             [
-                8.8,
+                7.2,
                 1,
                 1,
                 1,
