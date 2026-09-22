@@ -1,0 +1,605 @@
+/* =========================================================
+   COMPARE PAGE
+========================================================= */
+
+.compare-page {
+    max-width: 1160px;
+
+    margin:
+        0 auto;
+
+    padding:
+        5rem
+        2.5rem
+        1.5rem;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   PAGE INTRO
+========================================================= */
+
+.compare-intro {
+    max-width: 900px;
+}
+
+
+.compare-label {
+    color: #EF7F2D;
+
+    font-size: 0.76rem;
+    font-weight: 800;
+
+    letter-spacing: 0.14em;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0.8rem;
+}
+
+
+.compare-title {
+    color: #173A3A;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            4.5rem
+        );
+
+    font-weight: 500;
+
+    line-height: 1.02;
+
+    letter-spacing: -0.025em;
+
+    margin-bottom: 1.5rem;
+}
+
+
+.compare-description {
+    color: #65766E;
+
+    max-width: 800px;
+
+    font-size: 1.05rem;
+
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   THREE-YEAR SNAPSHOT INTRO
+========================================================= */
+
+.compare-section-intro {
+    max-width: 1160px;
+
+    margin:
+        0 auto;
+
+    padding:
+        2.4rem
+        2.5rem
+        1.1rem;
+
+    box-sizing: border-box;
+}
+
+
+.compare-section-title {
+    color: #173A3A;
+
+    font-size: 1.45rem;
+    font-weight: 800;
+
+    line-height: 1.2;
+
+    margin-bottom: 0.4rem;
+}
+
+
+.compare-section-description {
+    color: #768079;
+
+    max-width: 650px;
+
+    font-size: 0.92rem;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   SNAPSHOT CARD CONTAINER
+========================================================= */
+
+.st-key-compare_snapshot_cards {
+    max-width: 1160px;
+
+    margin:
+        0 auto;
+
+    padding:
+        0
+        2.5rem
+        1.6rem;
+
+    box-sizing: border-box;
+}
+
+
+.st-key-compare_snapshot_cards
+[data-testid="stHorizontalBlock"] {
+    gap: 1rem;
+}
+
+
+/* =========================================================
+   SNAPSHOT CARDS
+========================================================= */
+
+.compare-year-card {
+    width: 100%;
+
+    min-height: 155px;
+
+    background:
+        #EEEAF8;
+
+    border:
+        1px solid
+        #D9D1EC;
+
+    border-radius: 24px;
+
+    padding:
+        1.45rem
+        1.55rem;
+
+    box-sizing: border-box;
+
+    box-shadow:
+        0 5px 15px
+        rgba(
+            66,
+            55,
+            94,
+            0.04
+        );
+}
+
+
+/* FY LABEL */
+
+.compare-year {
+    color: #70658E;
+
+    font-size: 0.76rem;
+    font-weight: 800;
+
+    letter-spacing: 0.08em;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0.7rem;
+}
+
+
+/* MAIN VALUE */
+
+.compare-year-value {
+    color: #3F385B;
+
+    font-size: 2.1rem;
+    font-weight: 800;
+
+    line-height: 1;
+
+    margin-bottom: 0.55rem;
+}
+
+
+/* TOTAL ALLOCATION LABEL */
+
+.compare-year-note {
+    color: #817990;
+
+    font-size: 0.82rem;
+
+    line-height: 1.4;
+}
+
+
+/* CHANGE FROM PRIOR YEAR */
+
+.compare-year-change {
+    display: inline-block;
+
+    margin-top: 0.85rem;
+
+    padding:
+        0.28rem
+        0.6rem;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.62
+        );
+
+    border-radius: 999px;
+
+    color: #665C82;
+
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   THREE-YEAR SUMMARY
+========================================================= */
+
+.compare-summary {
+    max-width: 1110px;
+
+    margin:
+        0 auto
+        4rem;
+
+    padding:
+        1.35rem
+        1.55rem;
+
+    background:
+        #F3A36C;
+
+    border:
+        1px solid
+        rgba(
+            49,
+            94,
+            88,
+            0.18
+        );
+
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+
+
+.compare-summary-label {
+    color: #315E58;
+
+    font-size: 0.72rem;
+    font-weight: 800;
+
+    letter-spacing: 0.09em;
+
+    text-transform: uppercase;
+
+    margin-bottom: 0.4rem;
+}
+
+
+.compare-summary-text {
+    color: #315E58;
+
+    font-size: 0.96rem;
+
+    line-height: 1.55;
+}
+
+
+.compare-summary-text strong {
+    font-weight: 850;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .compare-page {
+        padding:
+            4rem
+            2rem
+            1rem;
+    }
+
+
+    .compare-section-intro {
+        padding:
+            2rem
+            2rem
+            1rem;
+    }
+
+
+    .st-key-compare_snapshot_cards {
+        padding:
+            0
+            2rem
+            1.5rem;
+    }
+
+
+    .compare-summary {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+
+    .compare-page {
+        padding:
+            3.5rem
+            1.3rem
+            1rem;
+    }
+
+
+    .compare-title {
+        font-size: 2.8rem;
+    }
+
+
+    .compare-description {
+        font-size: 0.96rem;
+    }
+
+
+    .compare-section-intro {
+        padding:
+            2rem
+            1.3rem
+            1rem;
+    }
+
+
+    .st-key-compare_snapshot_cards {
+        padding:
+            0
+            1.3rem
+            1.5rem;
+    }
+
+
+    .compare-year-card {
+        min-height: 140px;
+    }
+
+
+    .compare-summary {
+        margin:
+            0
+            1.3rem
+            3rem;
+    }
+
+}
+
+/* =========================================================
+   BIGGEST PROGRAM INCREASES
+========================================================= */
+
+.compare-movers-intro {
+    max-width: 1160px;
+
+    margin:
+        0 auto;
+
+    padding:
+        1rem
+        2.5rem
+        1.2rem;
+
+    box-sizing: border-box;
+}
+
+
+.st-key-compare_increases {
+    max-width: 1160px;
+
+    margin:
+        0 auto;
+
+    padding:
+        0
+        2.5rem
+        4rem;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   INCREASE ROW
+========================================================= */
+
+.increase-row {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1.2rem;
+
+    background: #FFFFFF;
+
+    border:
+        1px solid
+        #E7E2D8;
+
+    border-radius: 18px;
+
+    padding:
+        1rem
+        1.2rem;
+
+    margin-bottom: 0.75rem;
+
+    box-sizing: border-box;
+
+    box-shadow:
+        0 4px 12px
+        rgba(
+            49,
+            94,
+            88,
+            0.035
+        );
+}
+
+
+/* =========================================================
+   RANK
+========================================================= */
+
+.increase-rank {
+    width: 34px;
+    height: 34px;
+
+    flex:
+        0 0
+        34px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #E8EDC3;
+
+    border-radius: 50%;
+
+    color: #315E58;
+
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   PROGRAM INFO
+========================================================= */
+
+.increase-main {
+    flex: 1;
+}
+
+
+.increase-program {
+    color: #173A3A;
+
+    font-size: 0.98rem;
+    font-weight: 800;
+
+    margin-bottom: 0.35rem;
+}
+
+
+.increase-years {
+    color: #7A837E;
+
+    font-size: 0.78rem;
+
+    line-height: 1.4;
+}
+
+
+.increase-years strong {
+    color: #526E66;
+
+    font-weight: 750;
+}
+
+
+.increase-arrow {
+    display: inline-block;
+
+    margin:
+        0
+        0.45rem;
+
+    color: #A7AEA9;
+}
+
+
+/* =========================================================
+   CHANGE AMOUNT
+========================================================= */
+
+.increase-change {
+    flex-shrink: 0;
+
+    background: #F3A36C;
+
+    border-radius: 999px;
+
+    padding:
+        0.48rem
+        0.75rem;
+
+    color: #315E58;
+
+    font-size: 0.8rem;
+    font-weight: 850;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+
+    .compare-movers-intro {
+        padding:
+            1rem
+            1.3rem;
+    }
+
+
+    .st-key-compare_increases {
+        padding:
+            0
+            1.3rem
+            3rem;
+    }
+
+
+    .increase-row {
+        align-items:
+            flex-start;
+    }
+
+
+    .increase-change {
+        font-size:
+            0.72rem;
+    }
+
+}

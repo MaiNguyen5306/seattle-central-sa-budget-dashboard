@@ -12,7 +12,7 @@ from charts import (
     build_allocation_trend,
     build_program_ranking,
 )
-
+from views.compare import render_compare_page
 
 # =========================================================
 # PAGE CONFIG
@@ -752,16 +752,9 @@ if section == "home":
 
 elif section == "compare":
 
-    render_placeholder_page(
-        label="Compare",
-        title="How has funding changed?",
-        description=(
-            "Compare program allocations across fiscal years, "
-            "explore increases and decreases, and see how "
-            "funding priorities have shifted over time."
-        ),
+    render_compare_page(
+        budget
     )
-
 
 elif section == "requests":
 
