@@ -1,0 +1,5 @@
+academic_year,total_students,enrollment_measure,status,source_name,source_label,notes
+2023-24,12088,annual_headcount,verified,Seattle Colleges,Seattle Central College,Annual total student headcount
+2024-25,12378,annual_headcount,verified,SBCTC Enrollment Data Dashboard,Seattle Central/SVI,Annual headcount; matches Seattle Central published profile
+2025-26,11672,annual_headcount,verified,SBCTC Enrollment Data Dashboard,Seattle Central/SVI,Annual headcount
+2026-27,,annual_headcount,future,,,Annual academic-year headcount not yet available
