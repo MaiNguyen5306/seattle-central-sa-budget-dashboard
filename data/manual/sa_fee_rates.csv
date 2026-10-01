@@ -1,0 +1,41 @@
+academic_year,credits,quarterly_sa_fee,full_time_flag,fee_cap_flag,dashboard_status,source_document,source_pdf_page,notes
+2023-24,12,141.82,TRUE,FALSE,current,2023-24_tuition_fee_schedule.pdf,2,
+2023-24,13,149.18,TRUE,FALSE,current,2023-24_tuition_fee_schedule.pdf,2,
+2023-24,14,156.54,TRUE,FALSE,current,2023-24_tuition_fee_schedule.pdf,2,
+2023-24,15,163.90,TRUE,FALSE,current,2023-24_tuition_fee_schedule.pdf,2,Typical 15-credit reference
+2023-24,16,171.26,TRUE,FALSE,current,2023-24_tuition_fee_schedule.pdf,2,
+2023-24,17,178.62,TRUE,FALSE,current,2023-24_tuition_fee_schedule.pdf,2,
+2023-24,18,185.98,TRUE,TRUE,current,2023-24_tuition_fee_schedule.pdf,2,Maximum S&A fee reached
+2023-24,19,185.98,TRUE,TRUE,current,2023-24_tuition_fee_schedule.pdf,2,Fee remains capped
+2023-24,20,185.98,TRUE,TRUE,current,2023-24_tuition_fee_schedule.pdf,2,Fee remains capped
+2023-24,21,185.98,TRUE,TRUE,current,2023-24_tuition_fee_schedule.pdf,2,Fee remains capped
+2024-25,12,146.38,TRUE,FALSE,current,2024-25_tuition_fee_schedule.pdf,2,
+2024-25,13,153.97,TRUE,FALSE,current,2024-25_tuition_fee_schedule.pdf,2,
+2024-25,14,161.56,TRUE,FALSE,current,2024-25_tuition_fee_schedule.pdf,2,
+2024-25,15,169.15,TRUE,FALSE,current,2024-25_tuition_fee_schedule.pdf,2,Typical 15-credit reference
+2024-25,16,176.74,TRUE,FALSE,current,2024-25_tuition_fee_schedule.pdf,2,
+2024-25,17,184.33,TRUE,FALSE,current,2024-25_tuition_fee_schedule.pdf,2,
+2024-25,18,191.92,TRUE,TRUE,current,2024-25_tuition_fee_schedule.pdf,2,Maximum S&A fee reached
+2024-25,19,191.92,TRUE,TRUE,current,2024-25_tuition_fee_schedule.pdf,2,Fee remains capped
+2024-25,20,191.92,TRUE,TRUE,current,2024-25_tuition_fee_schedule.pdf,2,Fee remains capped
+2024-25,21,191.92,TRUE,TRUE,current,2024-25_tuition_fee_schedule.pdf,2,Fee remains capped
+2025-26,12,151.40,TRUE,FALSE,current,2025-26_tuition_fee_schedule.pdf,2,
+2025-26,13,159.25,TRUE,FALSE,current,2025-26_tuition_fee_schedule.pdf,2,
+2025-26,14,167.10,TRUE,FALSE,current,2025-26_tuition_fee_schedule.pdf,2,
+2025-26,15,174.95,TRUE,FALSE,current,2025-26_tuition_fee_schedule.pdf,2,Typical 15-credit reference
+2025-26,16,182.80,TRUE,FALSE,current,2025-26_tuition_fee_schedule.pdf,2,
+2025-26,17,190.65,TRUE,FALSE,current,2025-26_tuition_fee_schedule.pdf,2,
+2025-26,18,198.50,TRUE,TRUE,current,2025-26_tuition_fee_schedule.pdf,2,Maximum S&A fee reached
+2025-26,19,198.50,TRUE,TRUE,current,2025-26_tuition_fee_schedule.pdf,2,Fee remains capped
+2025-26,20,198.50,TRUE,TRUE,current,2025-26_tuition_fee_schedule.pdf,2,Fee remains capped
+2025-26,21,198.50,TRUE,TRUE,current,2025-26_tuition_fee_schedule.pdf,2,Fee remains capped
+2026-27,12,156.20,TRUE,FALSE,future,2026-27_tuition_fee_schedule.pdf,1,
+2026-27,13,164.30,TRUE,FALSE,future,2026-27_tuition_fee_schedule.pdf,1,
+2026-27,14,172.40,TRUE,FALSE,future,2026-27_tuition_fee_schedule.pdf,1,
+2026-27,15,180.50,TRUE,FALSE,future,2026-27_tuition_fee_schedule.pdf,1,Typical 15-credit reference
+2026-27,16,188.60,TRUE,FALSE,future,2026-27_tuition_fee_schedule.pdf,1,
+2026-27,17,196.70,TRUE,FALSE,future,2026-27_tuition_fee_schedule.pdf,1,
+2026-27,18,204.80,TRUE,TRUE,future,2026-27_tuition_fee_schedule.pdf,1,Maximum S&A fee reached
+2026-27,19,204.80,TRUE,TRUE,future,2026-27_tuition_fee_schedule.pdf,1,Fee remains capped
+2026-27,20,204.80,TRUE,TRUE,future,2026-27_tuition_fee_schedule.pdf,1,Fee remains capped
+2026-27,21,204.80,TRUE,TRUE,future,2026-27_tuition_fee_schedule.pdf,1,Fee remains capped
