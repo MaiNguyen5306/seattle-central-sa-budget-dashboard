@@ -1,0 +1,4 @@
+academic_year,total_headcount,international_all_funds,international_state_fund,international_contract_fund,international_contract_program_all,international_contract_program_contract,status,notes,contract_group_difference,international_share_pct,intl_state_share_pct,intl_contract_share_pct,contract_program_share_pct,intl_yoy_change,intl_yoy_pct,contract_yoy_change,contract_yoy_pct
+2023-24,12088,1058,32,907,911,911,final,Annual headcount; Seattle Central/SVI,4,8.75,3.02,85.73,7.54,,,,
+2024-25,12378,1132,26,990,994,994,final,Annual headcount; Seattle Central/SVI,4,9.15,2.3,87.46,8.03,74,6.99,83,9.11
+2025-26,11672,1035,11,924,927,927,provisional,Most recent academic year; SBCTC notes final data may not yet be available for all quarters,3,8.87,1.06,89.28,7.94,-97,-8.57,-67,-6.74
