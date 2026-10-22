@@ -1,0 +1,32 @@
+/* Browser equivalents of Streamlit's layout defaults. The original design CSS
+   stays in app/styles.css and app/compare.css and is copied without changes. */
+@font-face { font-family: 'Source Sans'; src: url('vendor/source-sans.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body { margin: 0; font-family: 'Source Sans', sans-serif; line-height: 1.6; }
+button, select { font: inherit; }
+p { margin: 0; }
+.st-key-top_nav { margin-bottom: 0; }
+.nav-columns { display: flex; height: 100%; }
+.nav-columns > div:first-child { flex: 1; }
+.nav-columns > div { display: flex; align-items: center; }
+.nav-columns button { line-height: 1.6; }
+button[kind='tertiary'] { padding: .5rem 0; border: 0; background: transparent; }
+.overview-layout { display: grid; grid-template-columns: .07fr .86fr .07fr; gap: 1rem; }
+.overview-main { grid-column: 2; min-width: 0; }
+.metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.chart-frame { margin-bottom: 1rem; }
+.chart { width: 100%; }
+.year-selector { margin-bottom: 1rem; }
+.year-selector label { display: block; font-size: .875rem; font-weight: 650; margin-bottom: .4rem; }
+.year-selector select { width: 100%; min-height: 40px; padding: .35rem .8rem; color: #173A3A; background: white; border: 1px solid #D9D7CD; border-radius: 999px; }
+.snapshot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+button:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid #EF8B32; outline-offset: 3px; }
+@media (max-width: 760px) {
+  .st-key-top_nav { height: auto; }
+  .nav-columns { flex-wrap: wrap; row-gap: .75rem; }
+  .nav-columns > div:first-child { flex-basis: 100%; }
+  .nav-columns button { min-width: 0 !important; }
+  .overview-layout { display: block; padding: 0 1rem; }
+  .metric-grid, .snapshot-grid { grid-template-columns: 1fr; }
+}
